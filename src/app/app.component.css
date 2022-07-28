@@ -1,29 +1,24 @@
-h1{
-    font-size:1.2em;
-    color:#999;
-    color: #555;
+/* AppComponent's private CSS styles */
+h1 {
     margin-bottom: 0;
-}
-
-h2{
-    font-size: 2em;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-nav a{
-    color: #555;
-    padding: 5px 10px;
+  }
+  nav a {
+    padding: 1rem;
     text-decoration: none;
     margin-top: 10px;
     display: inline-block;
-    background-color: #eee;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
     border-radius: 4px;
-}
-
-nav a:visted, a:link{
-    color: #607d8b
-}
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #42545C;
+  }
+  nav a.active {
+    background-color: black;
+  }
 
 nav a:hover{
     color: #039be5;
